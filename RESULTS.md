@@ -15,18 +15,18 @@ Detailed per-method/per-case records: [`results_rows.csv`](results_rows.csv) / [
 | preserve_original_archive_bytes_baseline | 53 | 0 | 0.18 |
 | tarfile_stdlib_availability_guard | 53 | 0 | 0.09 |
 | tar_member_listing_observer | 53 | 0 | 0.48 |
-| naive_join_path_checker | 53 | 0 | 0.44 |
-| pathlib_relative_path_guard | 53 | 0 | 1.31 |
-| tarfile_data_filter_demo | 53 | 0 | 57.06 |
-| tarfile_tar_filter_demo | 53 | 0 | 0.36 |
-| fully_trusted_filter_sandbox_demo | 53 | 0 | 53.69 |
-| custom_reject_traversal_filter | 53 | 0 | 0.25 |
-| custom_reject_links_filter | 53 | 0 | 0.17 |
-| custom_reject_special_files_filter | 53 | 0 | 0.32 |
-| metadata_sanitization_observer | 53 | 0 | 0.82 |
-| sandbox_escape_guard | 53 | 0 | 54.13 |
-| extractfile_no_write_demo | 53 | 0 | 0.33 |
-| zipfile_contrast_marker | 53 | 0 | 0.27 |
+| naive_join_path_checker | 53 | 0 | 0.48 |
+| pathlib_relative_path_guard | 53 | 0 | 1.28 |
+| tarfile_data_filter_demo | 53 | 0 | 315.80 |
+| tarfile_tar_filter_demo | 53 | 0 | 312.16 |
+| fully_trusted_filter_sandbox_demo | 53 | 0 | 273.74 |
+| custom_reject_traversal_filter | 53 | 0 | 221.83 |
+| custom_reject_links_filter | 53 | 0 | 223.61 |
+| custom_reject_special_files_filter | 53 | 0 | 249.77 |
+| metadata_sanitization_observer | 53 | 0 | 331.96 |
+| sandbox_escape_guard | 53 | 0 | 307.43 |
+| extractfile_no_write_demo | 53 | 0 | 57.42 |
+| zipfile_contrast_marker | 53 | 0 | 239.97 |
 | external_security_not_tested_marker | 53 | 0 | 0.08 |
 
 ## Tag counts
@@ -88,7 +88,7 @@ Detailed per-method/per-case records: [`results_rows.csv`](results_rows.csv) / [
 - External archive / malware / package / API calls: 0
 - HN thread accessed: yes – https://news.ycombinator.com/item?id=17237295
   - Evidence: [`hn_thread_evidence.md`](hn_thread_evidence.md)
-- tracemalloc current: 1897739 bytes, peak: 2079831 bytes
+- tracemalloc current: 2104805 bytes, peak: 2286897 bytes
 
 ## Correctness policy
 
